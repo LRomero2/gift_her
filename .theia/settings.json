@@ -20,5 +20,5 @@
       "**/core.python*": true
    },
 "emmet.extensionsPath": ".theia",
-"python.pythonPath": "/home/gitpod/.pyenv/shims/python"
+"python.pythonPath": "/home/gitpod/.pyenv/versions/3.8.7/bin/python"
 }
