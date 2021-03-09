@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/hero-img-fullstack.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: calc(100vh - 184px);
     color: #555;
     font-family: 'Lato';
 }
@@ -291,3 +291,26 @@ input[name='q']::placeholder {
         height: calc(100vh - 116px);
     }
 }
+
+
+/* Landing page - benifits section*/
+.span-features {
+    letter-spacing: 0.3rem;
+    background: var(--white);
+    font-family: var(--sawarabi-mincho);
+    border: 2px solid var(--black);
+}
+
+.span-features-container {
+    margin-top: -1rem;
+}
+
+.features-section {
+    overflow-x: hidden;
+    overflow-y: hidden;   
+}
+
+.features-paragraph {
+    font-size: 1.1rem;
+}
+
