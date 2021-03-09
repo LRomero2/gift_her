@@ -316,7 +316,7 @@ input[name='q']::placeholder {
 }
 
 .background-hero{
-    background: url('/media/element5-digital-ceWgSMd8rvQ-unsplash.jpg.jpg') no-repeat center center fixed;
+    background: url('/media/make-up-bundle1.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 224px);
     color: #555;
