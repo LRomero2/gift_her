@@ -297,7 +297,7 @@ input[name='q']::placeholder {
 .span-features {
     letter-spacing: 0.3rem;
     background: var(--white);
-    font-family: var(--sawarabi-mincho);
+    font-family: 'Lato';
     border: 2px solid var(--black);
 }
 
@@ -314,3 +314,18 @@ input[name='q']::placeholder {
     font-size: 1.1rem;
 }
 
+.background-hero{
+    background: url('/media/element5-digital-ceWgSMd8rvQ-unsplash.jpg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 224px);
+    color: #555;
+    font-family: 'Lato';
+}
+
+#features-section-background{
+    background:white;
+    background-size: cover;
+    height: calc(100vh - 224px);
+    color: #555;
+    font-family: 'Lato';
+}
