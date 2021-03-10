@@ -323,6 +323,8 @@ input[name='q']::placeholder {
     font-family: 'Lato';
 }
 
+
+
 #features-section-background{
     background:white;
     background-size: cover;
@@ -330,3 +332,32 @@ input[name='q']::placeholder {
     color: #555;
     font-family: 'Lato';
 }
+
+/*
+
+#feature-free-delivery{
+    animation:fade-up-right;
+    animation-duration: 1200;
+}
+
+#feature-online-service{
+     animation:fade-up-left;
+    animation-duration: 1200;
+}
+
+#feature-10-off{
+     animation:fade-up-right;
+    animation-duration: 1200;
+}
+
+#feature-inspiration{
+    animation:fade-up-left;
+    animation-duration: 1200;
+}
+
+#feature-collections{
+      animation:fade-up;
+    animation-duration: 1200;
+}
+
+*/
