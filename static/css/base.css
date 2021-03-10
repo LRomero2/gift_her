@@ -318,11 +318,10 @@ input[name='q']::placeholder {
 .background-hero{
     background: url('/media/make-up-bundle1.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 224px);
+    height: calc(100vh - 160px);
     color: #555;
     font-family: 'Lato';
 }
-
 
 
 #features-section-background{
@@ -333,31 +332,24 @@ input[name='q']::placeholder {
     font-family: 'Lato';
 }
 
-/*
-
-#feature-free-delivery{
-    animation:fade-up-right;
-    animation-duration: 1200;
+.footer_index{
+    background:black;
+    height:200px;
+    width:100%;
+    margin-bottom:0;
 }
 
-#feature-online-service{
-     animation:fade-up-left;
-    animation-duration: 1200;
+footer h4{
+    color:white;
+    text-decoration:none;
 }
 
-#feature-10-off{
-     animation:fade-up-right;
-    animation-duration: 1200;
+footer li a{
+    list-style-type: none;
+    color:white;
+    text-decoration:none;
 }
 
-#feature-inspiration{
-    animation:fade-up-left;
-    animation-duration: 1200;
+.list-inline-item{
+    text-decoration:none;
 }
-
-#feature-collections{
-      animation:fade-up;
-    animation-duration: 1200;
-}
-
-*/
