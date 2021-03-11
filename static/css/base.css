@@ -339,7 +339,7 @@ input[name='q']::placeholder {
     margin-bottom:0;
 }
 
-footer h4{
+footer h5{
     color:white;
     text-decoration:none;
 }
@@ -352,4 +352,29 @@ footer li a{
 
 .list-inline-item{
     text-decoration:none;
+    color:black;
+}
+
+#h1-hero-footer{
+color:white;
+}
+
+#h5-hero-footer{
+color:white;
+}
+
+#footer-links{
+list-style-type: none;
+}
+
+#footer-links2{
+list-style-type: none;
+}
+
+#footer-links-container{
+    padding-top:20px;
+}
+
+span #social-media-links{
+    color: #000;
 }
