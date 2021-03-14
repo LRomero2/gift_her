@@ -1,1 +1,15 @@
-[{"pk": 1, "model": "products.category", "fields": {"name": "activewear", "friendly_name": "Activewear"}}, {"pk": 2, "model": "products.category", "fields": {"name": "bed_bath", "friendly_name": "Bed & Bath"}}, {"pk": 3, "model": "products.category", "fields": {"name": "clearance", "friendly_name": "Clearance"}}, {"pk": 4, "model": "products.category", "fields": {"name": "deals", "friendly_name": "Deals"}}, {"pk": 5, "model": "products.category", "fields": {"name": "essentials", "friendly_name": "Essentials"}}, {"pk": 6, "model": "products.category", "fields": {"name": "jeans", "friendly_name": "Jeans"}}, {"pk": 7, "model": "products.category", "fields": {"name": "kitchen_dining", "friendly_name": "Kitchen & Dining"}}, {"pk": 8, "model": "products.category", "fields": {"name": "new_arrivals", "friendly_name": "New Arrivals"}}, {"pk": 9, "model": "products.category", "fields": {"name": "shirts", "friendly_name": "Shirts"}}]
+[{"pk": 1, "model": "products.category", "fields": {"name": "activewear", "friendly_name": "Activewear"}}, 
+{"pk": 2, "model": "products.category", "fields": {"name": "bed_bath", "friendly_name": "Bed & Bath"}}, 
+{"pk": 3, "model": "products.category", "fields": {"name": "clearance", "friendly_name": "Clearance"}}, 
+{"pk": 4, "model": "products.category", "fields": {"name": "deals", "friendly_name": "Deals"}}, 
+{"pk": 5, "model": "products.category", "fields": {"name": "essentials", "friendly_name": "Essentials"}}, 
+{"pk": 6, "model": "products.category", "fields": {"name": "lingerie", "friendly_name": "Lingerie"}}, 
+{"pk": 7, "model": "products.category", "fields": {"name": "home", "friendly_name": "Home"}}, 
+{"pk": 8, "model": "products.category", "fields": {"name": "new_arrivals", "friendly_name": "New Arrivals"}}, 
+{"pk": 9, "model": "products.category", "fields": {"name": "make_up", "friendly_name": "Make Up"}},
+{"pk": 10, "model": "products.category", "fields": {"name": "perfume", "friendly_name": "Perfume"}}, 
+{"pk": 11, "model": "products.category", "fields": {"name": "bags", "friendly_name": "Bags"}}, 
+{"pk": 12, "model": "products.category", "fields": {"name": "flowers", "friendly_name": "Flowers"}}, 
+{"pk": 13, "model": "products.category", "fields": {"name": "chocolate", "friendly_name": "Chocolate"}}, 
+{"pk": 14, "model": "products.category", "fields": {"name": "watches", "friendly_name": "Watches"}}, 
+{"pk": 15, "model": "products.category", "fields": {"name": "nail_polish", "friendly_name": "Nail Polish"}}] 
