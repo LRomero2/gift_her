@@ -316,7 +316,7 @@ input[name='q']::placeholder {
 }
 
 .background-hero{
-    background: url('/media/laura-chouette-J7QS7U84CkQ-unsplash.jpg') no-repeat center center fixed;
+    background: url('/media/newfooter.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 160px);
     color: #555;
