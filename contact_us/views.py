@@ -4,7 +4,6 @@ from .forms import SubscriptionForm, SecureMessageForm
 from django.contrib import messages
 
 
-
 def secure_message(request):
 
     if request.method == 'POST':
@@ -22,4 +21,4 @@ def secure_message(request):
         'form': form,
     }
 
-    return render(request, 'contact_us.html', context)
+    return render(request, 'contact/contact_us.html', context)
