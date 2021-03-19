@@ -391,3 +391,17 @@ span #social-media-links{
 background-color: #000;
 opacity: 0.8;
 }
+
+#contact-form{
+    padding-top:20%;
+}
+
+#faq-accordion{
+    padding-top:20%;
+    padding-bottom:20%;
+}
+
+#faq-accordion strong{
+    color:black;
+    text-decoration: none;
+}

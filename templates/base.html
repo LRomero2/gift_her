@@ -175,7 +175,7 @@
     <div class="col-sm">
          <h5>HELP & CONTACT US</h5>
       <ul id="footer-links">
-      <li><a href="#" class="text-decoration-none">About Us</a></li>
+      <li><a href="{% url 'about' %}" class="text-decoration-none">About Us</a></li>
       <li><a href="{% url 'contact_us' %}" class="text-decoration-none">Contact Us</a></li>
       <li><a href="{% url 'delivery_info' %}" class="text-decoration-none">Delivery Information</a></li>
       </ul>
@@ -184,6 +184,7 @@
         <h5>My GiftHer</h5>
       <ul id="footer-links2">
       <li><a href="{% url 'account_login' %}" class="text-decoration-none">My Account</a></li>
+      <li><a href="{% url 'faqs' %}" class="text-decoration-none">FAQ'S</a></li>
                 {% if request.user.is_authenticated %}
       <li><a href="{% url 'order_history' order.order_number %}" class="text-decoration-none">My Orders</a></li>
                 {% endif %}

@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class ContactUsConfig(AppConfig):
+class ContactConfig(AppConfig):
     name = 'contact_us'
