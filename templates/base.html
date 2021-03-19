@@ -138,6 +138,63 @@
     {% block content %}
     {% endblock %}
 
+
+
+<footer class="footer_index">
+<div class="container" id="footer-links-container">
+  <div class="row">
+    <div class="col-sm">
+        <h5>STAY CONNECTED</h5>
+         <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/?lang=en-gb" class="text-decoration-none" target="_blank" rel="noopener noreferrer">
+                <span class="fa-stack fa-lg" id="social-media-links">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://en-gb.facebook.com/" class="text-decoration-none" target="_blank" rel="noopener noreferrer">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/" class="text-decoration-none" target="_blank" rel="noopener noreferrer">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+    </div>
+    <div class="col-sm">
+         <h5>HELP & CONTACT US</h5>
+      <ul id="footer-links">
+      <li><a href="#" class="text-decoration-none">About Us</a></li>
+      <li><a href="{% url 'contact_us' %}" class="text-decoration-none">Contact Us</a></li>
+      <li><a href="{% url 'delivery_info' %}" class="text-decoration-none">Delivery Information</a></li>
+      </ul>
+    </div>
+    <div class="col-sm">
+        <h5>My GiftHer</h5>
+      <ul id="footer-links2">
+      <li><a href="{% url 'account_login' %}" class="text-decoration-none">My Account</a></li>
+                {% if request.user.is_authenticated %}
+      <li><a href="{% url 'order_history' order.order_number %}" class="text-decoration-none">My Orders</a></li>
+                {% endif %}
+      </ul>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');

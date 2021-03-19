@@ -382,10 +382,12 @@ span #social-media-links{
 
 #delivery-info{
     color:white;
-    padding-top:20%;
+    padding-top:10%;
+    padding-bottom:20%;
 }
 
 
 #delivery-col{
 background-color: #000;
+opacity: 0.8;
 }
