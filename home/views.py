@@ -10,10 +10,10 @@ def index(request):
 
 
 def error_404(request, exception):
-        data = {}
-        return render(request, 'templates/404.html', data)
+    data = {}
+    return render(request, 'templates/404.html', data)
 
 
 def error_500(request,  exception):
-        data = {}
-        return render(request, 'templates/500.html', data)
+    data = {}
+    return render(request, 'templates/500.html', data)
