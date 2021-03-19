@@ -394,6 +394,7 @@ opacity: 0.8;
 
 #contact-form{
     padding-top:20%;
+    padding-bottom:20%;
 }
 
 #faq-accordion{
@@ -419,4 +420,10 @@ opacity: 0.8;
 background-color: white;
 opacity: 0.8;
 color:black;
+}
+
+.contact-background{
+ background-color: white;
+opacity: 0.8;
+color:black;   
 }
