@@ -439,6 +439,8 @@ color:black;
 }
 
 .error-container {
-    padding-top: 5rem;
-    padding-bottom: 4rem;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-color: white;
+    opacity: 0.8;
 }
