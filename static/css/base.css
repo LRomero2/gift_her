@@ -381,14 +381,14 @@ span #social-media-links{
 
 
 #delivery-info{
-    color:white;
+    color:black;
     padding-top:10%;
     padding-bottom:20%;
 }
 
 
 #delivery-col{
-background-color: #000;
+background-color: white;
 opacity: 0.8;
 }
 
@@ -407,5 +407,16 @@ opacity: 0.8;
 }
 
 #faq-heading{
-    color:white;
+    color:black;
+}
+
+#about-container{
+    padding-top:20%;
+    padding-bottom:20%;
+}
+
+.about-background{
+background-color: white;
+opacity: 0.8;
+color:black;
 }
