@@ -427,3 +427,18 @@ color:black;
 opacity: 0.8;
 color:black;   
 }
+
+/*Error pages*/
+.error-heading {
+    font-size: 2.8rem;
+    letter-spacing: 0.3rem;
+}
+
+.error-sub-heading {
+    font-size: 1.7rem;
+}
+
+.error-container {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
