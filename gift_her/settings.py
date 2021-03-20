@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'profiles',
     'contact_us',
     'delivery_info',
+    'discover',
 
     # Other
     'crispy_forms',
@@ -58,6 +59,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'gift_her.urls'
