@@ -61,3 +61,4 @@ class BlogComment(models.Model):
         return '{}, {}, {}'.format(self.article_id,
                                    self.user_id,
                                    self.comment_title)
+                                   

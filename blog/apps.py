@@ -1,5 +1,7 @@
+  
 from django.apps import AppConfig
 
 
 class BlogConfig(AppConfig):
-    name = 'discover'
+    name = 'blog'
+    

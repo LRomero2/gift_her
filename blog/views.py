@@ -41,7 +41,7 @@ def blog_feed(request):
         'total_post_number': total_post_number,
     }
 
-    return render(request, 'discover/blog.html', context)
+    return render(request, 'blog/blog.html', context)
 
 
 def category_view(request, category):
@@ -70,7 +70,7 @@ def category_view(request, category):
         'total_post_number': total_post_number,
     }
 
-    return render(request, 'discover/post_category_view.html', context)
+    return render(request, 'blog/post_category_view.html', context)
 
 
 def post_view(request, slug):
@@ -82,7 +82,7 @@ def post_view(request, slug):
     blog_post = get_object_or_404(BlogPost, slug=slug)
     blog_image = BlogImage.objects.get(article_id=blog_post.id)
     new_comment = None
-    template = 'discover/post_detail.html'
+    template = 'blog/post_detail.html'
 
     if request.method == 'POST':
         comment_form = CommentForm(data=request.POST)
@@ -161,7 +161,7 @@ def add_blog(request):
     if 'last_item' in request.session:
         del request.session['last_item']
 
-    template = 'discover/add_blog.html'
+    template = 'blog/add_blog.html'
     context = {
         'blog_form': blog_form,
         'blog_image_form': blog_image_form,
@@ -177,7 +177,7 @@ def edit_blog(request, blog_pk):
     """
     if not request.user.is_superuser:
         messages.error(request,
-                       'Sorry, only site owners have access to the area.')
+                       'Sorry, only site owner have access to the area.')
         return redirect(reverse('home'))
 
     blog_post = get_object_or_404(BlogPost, pk=blog_pk)
@@ -217,7 +217,7 @@ def edit_blog(request, blog_pk):
         messages.info(
             request, f'You are editing a product details: {blog_post.title}')
 
-    template = 'discover/edit_blog.html'
+    template = 'blog/edit_blog.html'
     context = {
         'blog_form': blog_form,
         'blog_image_form': blog_image_form,
@@ -234,7 +234,7 @@ def delete_blog(request, blog_pk):
     """
     if not request.user.is_superuser:
         messages.error(request,
-                       'Sorry, only site owners have access to the area.')
+                       'Sorry, only site owner have access to the area.')
         return redirect(reverse('home'))
 
     blog = get_object_or_404(BlogPost, pk=blog_pk)
@@ -246,4 +246,5 @@ def delete_blog(request, blog_pk):
     if 'last_item' in request.session:
         del request.session['last_item']
 
-    return redirect(reverse('discover'))
+    return redirect(reverse('blog'))
+    
