@@ -334,7 +334,7 @@ input[name='q']::placeholder {
 
 .footer_index{
     background:black;
-    height:200px;
+    height:300px;
     width:100%;
     margin-bottom:0;
 }
@@ -375,9 +375,6 @@ list-style-type: none;
     padding-top:20px;
 }
 
-span #social-media-links{
-    color: #000;
-}
 
 
 #delivery-info{
@@ -444,3 +441,8 @@ color:black;
     background-color: white;
     opacity: 0.8;
 }
+
+#footer-payment{
+    padding-top:5%;
+}
+
