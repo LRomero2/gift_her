@@ -1,7 +1,8 @@
-from .forms import SubscriptionForm
+from .forms import SecureMessageForm
 
 
-def subscription_form(request):
-    sub_form = SubscriptionForm()
-    context = {'sub_form': sub_form}
+def SecureMessage_form(request):
+    form = SecureMessageForm()
+    context = {'form': form}
     return context
+    
