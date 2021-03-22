@@ -15,6 +15,7 @@ def blog_feed(request):
     blog_post = BlogPost.objects.all().order_by('-created_on')
     blog_image = BlogImage.objects.all()
     total_post_number = blog_post.count()
+    
 
     category_dict = dict()
     for key in blog_post:

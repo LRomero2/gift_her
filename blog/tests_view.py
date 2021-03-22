@@ -82,4 +82,3 @@ class TestBlogFeed(TestCase):
         self.assertRedirects(response, '/blog/',
                              status_code=302, target_status_code=200,
                              fetch_redirect_response=True)
-                             

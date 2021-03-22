@@ -1,13 +1,6 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect
 from .forms import SecureMessageForm
 from django.contrib import messages
-
-
-def thankyou_page(request):
-    """
-    A view to render thank you page after site visitors send a contact form
-    """
-    return render(request, 'contact/thankyou_page.html')
 
 
 def secure_message(request):
@@ -23,6 +16,17 @@ def secure_message(request):
     context = {
         'form': form,
     }
+
+
+    return render(request, 'contact/contact_us.html', context)
+    
+
+
+def thankyou_page(request):
+    """
+    View to render thank you page after visitors send a message
+    """
+    return render(request, 'contact/thankyou_page.html')
 
 
 def faqs(request):
