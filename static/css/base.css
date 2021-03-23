@@ -460,6 +460,12 @@ color:black;
 
 /** Blog **/
 /* Blog landing page */
+#blog-detail{
+    padding-top:16%;
+    background: white;
+}
+
+
 #section-top1{
     padding-top:16%;
     background: white;
@@ -575,7 +581,7 @@ color:black;
 
 .users-comment {
     padding: 15px 50px;
-    background-color: #b7f3f5;
+    background-color: #ffc9f3ee;
 }
 
 .comment-name {
