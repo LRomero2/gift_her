@@ -454,7 +454,6 @@ color:black;
 }
 
 
-
 /*--------------------------------------------------------------------/*
 
 
@@ -465,13 +464,30 @@ color:black;
     background: white;
 }
 
+#blog-detail-cat{
+    padding-top:15%;
+    background: white;
+}
+
+#blog-detail-cat a{
+   color:black
+}
 
 #section-top1{
     padding-top:16%;
     background: white;
 }
 
+#section-top2{
+    padding-top:16%;
+    background: white;
+}
+
 #section-top1 a{
+    color: black;
+}
+
+#section-top2 a{
     color: black;
 }
 
