@@ -3,12 +3,19 @@ html {
 }
 
 body {
-    background: url('/media/hero-img-fullstack.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 224px);
     color: #555;
     font-family: 'Lato';
 }
+
+#top-img{
+background: url('/media/perfect_gift.jpg') no-repeat center center fixed;
+background-size: cover;
+width:100%;
+height: calc(100vh - 160px);
+padding-top:10%;
+}
+
+
 
 /* from Bulma */
 .icon {
@@ -316,17 +323,21 @@ input[name='q']::placeholder {
 }
 
 .background-hero{
-    background: url('/media/newfooter.jpg') no-repeat center center fixed;
+    background: url('/media/hero-img-fullstack.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 160px);
     color: #555;
     font-family: 'Lato';
 }
 
+#thankyou-container{
+    padding-top:24%;
+}
 
 #features-section-background{
     background:white;
     background-size: cover;
+    width:100%;
     height: calc(100vh - 180px);
     color: #555;
     font-family: 'Lato';
@@ -356,7 +367,7 @@ footer li a{
 }
 
 #h1-hero-footer{
-color:white;
+color:black;
 }
 
 #h5-hero-footer{
