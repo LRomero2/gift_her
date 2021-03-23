@@ -24,16 +24,6 @@ def blog_feed(request):
         else:
             category_dict[key.category] = 1
 
-    # Pagination
-    paginator = Paginator(blog_post, 5)
-    page = request.GET.get('page')
-
-    try:
-        blog_post = paginator.page(page)
-    except PageNotAnInteger:
-        blog_post = paginator.page(1)
-    except EmptyPage:
-        blog_post = paginator.page(paginator.num_pages)
 
     context = {
         'blog_post': blog_post,

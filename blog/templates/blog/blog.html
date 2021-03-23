@@ -1,7 +1,7 @@
 {% extends "base.html" %} {% load static %} {% block content %}
-{% load filter_pagination %} {% load blog_image_filter %}
+{% load blog_image_filter %}
 
-<section class="section-top">
+<section class="section-top" id="section-top1">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-2">
@@ -74,42 +74,7 @@
                                 {% endfor %}
 							</div>
 						</div>
-                    <div class="row">
-                        <div class="col-12">
-                            {% if blog_post.has_other_pages %}
-								<ul class="pagination pagination-extension justify-content-center mt-4">
-                                    {% if blog_post.has_previous %}
-										<li class="mr-2">
-											<a class="move-page-button" href="{% relative_url blog_post.previous_page_number 'page' request.GET.urlencode %}">&laquo;</a>
-										</li>
-                                    {% else %}
-                                    {% endif %}
-                                    {% for i in blog_post.paginator.page_range %}
-                                        {% if blog_post.number == i %}
-											<li class="active-pagination mr-2">
-											    <span>{{ i }} 
-													<span class="sr-only">(current)</span>
-											    </span>
-											</li>
-                                        {% else %}
-                                            <li class="mr-2">
-                                                <a class="page-button" href="{% relative_url i 'page' request.GET.urlencode %}"> {{ i }} </a>
-                                            </li>
-                                        {% endif %}
-                                    {% endfor %}
-                                    {% if blog_post.has_next %}
-                                        <li>
-                                            <a class="move-page-button" href="{% relative_url blog_post.next_page_number 'page' request.GET.urlencode %}">&raquo;</a>
-                                        </li>
-                                    {% else %}
-                                        <li class="move-page-button-disabled">
-                                            <span>&raquo;</span>
-                                        </li>
-                                    {% endif %}
-								</ul>
-                            {% endif %}
-                        </div>
-                    </div>
+           
                 </div>
             </div>
             </div>
