@@ -394,7 +394,6 @@ list-style-type: none;
 #delivery-info{
     color:black;
     padding-top:10%;
-    padding-bottom:20%;
 }
 
 
@@ -404,8 +403,7 @@ opacity: 0.8;
 }
 
 #contact-form{
-    padding-top:20%;
-    padding-bottom:20%;
+    padding-top:15%;
 }
 
 #faq-accordion{
@@ -442,7 +440,7 @@ color:black;
 }
 
 .contact-background{
- background-color: white;
+background-color: #f7e7f5e5;
 opacity: 0.8;
 color:black;   
 }
