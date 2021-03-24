@@ -412,11 +412,19 @@ opacity: 0.8;
 
 #faq-accordion{
     padding-top:20%;
-    padding-bottom:20%;
+    width:700px !important;
 }
 
+
+@media (max-width: 420px) {
+    #faq-accordion {
+    padding-top:20%;
+    width:300px !important;
+    }
+
+
 #faq-accordion strong{
-    color:black;
+    color:black !important;
     text-decoration: none;
 }
 
