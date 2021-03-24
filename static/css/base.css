@@ -340,7 +340,7 @@ input[name='q']::placeholder {
     background:white;
     background-size: cover;
     width:100%;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 360px);
     color: #555;
     font-family: 'Lato';
 }
