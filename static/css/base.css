@@ -15,7 +15,11 @@ height: calc(100vh - 160px);
 padding-top:10%;
 }
 
-
+#about-img-gift{
+    background: url('/media/perfect_gift.jpg') no-repeat center center fixed;
+    widows: 100%;;
+    background-size: cover;
+}
 
 /* from Bulma */
 .icon {
