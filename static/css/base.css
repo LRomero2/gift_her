@@ -300,7 +300,7 @@ input[name='q']::placeholder {
 }
 
 
-/* Landing page - benifits section*/
+/* Landing page - features section*/
 .span-features {
     letter-spacing: 0.3rem;
     background: white;
@@ -348,6 +348,7 @@ input[name='q']::placeholder {
     height:300px;
     width:100%;
     margin-bottom:0;
+    margin-top:5%;
 }
 
 footer h5{
@@ -357,7 +358,7 @@ footer h5{
 
 footer li a{
     list-style-type: none;
-    color:white;
+    color:white !important;
     text-decoration:none;
 }
 
