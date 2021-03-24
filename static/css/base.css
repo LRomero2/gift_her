@@ -8,11 +8,9 @@ body {
 }
 
 #top-img{
-background: url('/media/perfect_gift.jpg') no-repeat center center fixed;
-background-size: cover;
+background: url('/media/perfect_gift2.jpg') no-repeat center center fixed;
 width:100%;
 height: calc(100vh - 160px);
-padding-top:10%;
 }
 
 #about-img-gift{
