@@ -10,7 +10,6 @@ body {
 #top-img{
 background: url('/media/perfect_gift2.jpg') no-repeat center center fixed;
 width:100%;
-height: calc(100vh - 160px);
 }
 
 #about-img-gift{
