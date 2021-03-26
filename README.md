@@ -158,7 +158,7 @@ GitHub
 Gitpod workspaces
 PIP
 Django Debug Toolbar
-AWS Services
+AWS Web Services
 
 ### Testing
 * Landing Page
@@ -233,7 +233,86 @@ AWS Services
 
 
 ### Deployment
-Heroku Deployment with AWS
-Local Deployment
-Credits
+#### Heroku Deployment with AWS
+To deploy this website I will follow these steps (Some have already been taken to create the project):
+1. Install the following packages to the local environment, the packages are required to deploy a Django project on Heroku.
+* gnicorn: gnicorn is Python WSGI(web server gataway interface) server for UNIX.
+* gninx: gninx is a free, open-source, high-performance HTTP server.
+* psycopg2-binary: psycopg2-binary is PostgreSQL database adapter for the Python programming language.
+* dj-database-url: dj-database-url allows you to configure your Django application.
+2. Create a requirements.txt file and freeze all the modules with the command pip3 freeze > requirements.txt in the terminal.
+3. Create a Procfile write web: gunicorn gift_her.wsgi:application in the file.
+4. Then git add . and git commit -m and git push all the changes to the Github repositoty of this project.
+5. Go to Heroku and create a new app. Set a name for this app and select the closest region (Europe) and click Create app.
+6. Go to the Resources tab in Heroku, then in the Add-ons search bar look for Heroku Postgres(you can type postgres), select Hobby Dev — Free and click Submit Order Form button to add it to your project.
+7. In the heroku dashboard for the application, click on Settings > Reveal Config Vars and set the values for the AWS_ACCESS_KEY_ID,
+   AWS_SECRET_ACCESS_KEY, DATABASE_URL, EMAIL_HOST_PASS, EMAIL_HOST_USER, SECRET_KEY, STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, STRIPE_WH_SECRET,
+   USE_AWS.
+8. Temporarily comment out the current database setting in settings.py, and add the code below instead to migrate to the database.
+   DATABASES = {'default': dj_database_url.parse("<the Postrgres database URL here>")}
+9. Migrate the database models to the Postgres database using the following commands in the terminal: python3 manage.py migrate
+10. Load the data fixtures(name the fixtures) into the Postgres database using the following command: python3 manage.py loaddata <fixture_name>
+11. Create a superuser for the Postgres database by running the following command: python3 manage.py createsuperuser
+12. Replace the database setting with the code below, so that the right database is used depending on development/deployed environment.
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
+13. Disable collect static, so that Heroku won't try to collect static file with: heroku config:set DISABLE_COLLECTSTATIC=1
+14. Add 'gift_her.herokuapp.com', 'localhost', '127.0.0.1' to ALLOWED_HOSTS in settings.py.
+ALLOWED_HOSTS = ['gift_her.herokuapp.com', 'localhost', '127.0.0.1']
+15. In Stripe, add Heroku app URL a new webhook endpoint.
+16. Update the settings.py with the new Stripe environment variables and email settings.
+17. Save all the changes to Heroku.
 
+#### Deployment by Heroku
+Automatic deployment by Heroku can be set up with these steps:
+Deploy project in Heroku dashboard.
+At Automatic deploys, choose a github repository you want to deploy.
+Click Enable Automatic Deploys.
+
+#### Local Deployment
+For local deployment, the following needs to be installed and an IDE is needed. I used Gitpod.
+* In the IDE, copy and paste the following command into the terminal to clone this repository. 
+git clone https://github.com//LRomero2/gift_her.git
+Set up environment variable in the IDE, or you can create .env file in your root directory and add .env to .gitignore file, 
+and add the followings to the .env file.
+import os  
+os.environ["DEVELOPMENT"] = "True"    
+os.environ["SECRET_KEY"] = "<The Secret Key>"
+os.environ["STRIPE_PUBLIC_KEY"] = "<The Stripe Public Key>"    
+os.environ["STRIPE_SECRET_KEY"] = "<The Stripe Secret Key>"    
+os.environ["STRIPE_WH_SECRET"] = "<The Stripe WH Secret Key>"    
+Install all the required packages with pip3 install -r requirements.txt
+Migrate the models to crete a database with python3 manage.py makemigrations and python3 manage.py migrate
+Load the data fixtures(Type the fixtures here) into the database using the following command: python3 manage.py loaddata <fixture_name>
+Create a superuser for the Postgres database by running with python3 manage.py createsuperuser
+Now it's possible to run the site using the command python3 manage.py runserver
+
+## Credits
+### Content & Code
+I constantly read Django, Stripe and Python documenation and tutorial throughout the development.
+For Blog app, I referred to this tutorial.
+I refered to this code snippet for the Testinonial section on the landing page.
+For search product function, I refered to several articles and video. Stack Overflow 1, Stack Overflow 2, Stack Overflow 3, Combine 2 Django Querysets from Different Models, Django Queryset:value_list() flat=True.
+For the hover show button on the product card, I refered to this code snippet.
+For multiselect dropdown menu which is used for the product filter function, I referred to these article: Stack Overflow 1, bootstrap-select.
+For creating custome template tags used in Blog and Product apps, I refered to this video.
+This project was developed refering to the Boutique Ado Django mini-project from Code Institute course materials. The codes are customized and modified to fit the purpose of this milestone project.
+### Images & Media
+All the icons in this website were provided by Font Awesome.
+Favicon is made by Freepik from www.flaticon.com.
+The credits for the images used in this site can be found in this separated file.
+To compress the image size, I used tinypng.
+### Acknowledgements
+Thanks to: my Code Institute Mentor Guido Cecilio Garcia Bernal for his advice throughout the development process.
+Code Institute Slack Community that gave me a light when I was stuck in my coding.
+### Disclaimer
+This website is created for educational purpose only and no products can be obtained through purchasing.
