@@ -72,22 +72,43 @@
             with flashes of light pink here and there on some pages such as contact us.
             Bootstrap v4.6 was used to create the site and displays well on desktop, tablet and mobile devices.
 
+Wireframes
+The Wireframes for this project were created with balsamiq. You can find the wireframes here.
 
-
-
-
-
-
-### Design
-### Features
-
+## Features
 ### Existing Features
-Landing Page
-Product Page
-Cart Page
-Checkout Page
-Blog Page
-Profiles Page
+#### Landing Page
+The Landing Page is designed to show what features the site has. It has a Navbar and Search bar that display on each other page of the 
+site too. The three cards below the hero image gives an overview of the site with link buttons to each main page. The shop now button that overlays
+the hero image takes the user to the product page where they can view all the products in all categories.
+The footer at the bottom of the page has links to social media platforms and extra pages.
+#### Product Page
+The product filter at the right hand side of the page (On a desktop) is handy for easy searching and filtering product results.
+The products display nicely in a card format to keep the page nice and clean. When the product is cliked on to view, another page is displayed
+which shows a larger image of the product selected and the details of the product along with a button to add the item to the shopping bag.
+#### Shopping Bag Page
+The shopping bag page will display all items in the current bag that the user has added. If the user has not added any products to the Bag
+a message will display telling them that they have no items in the bag and shows a button to take them back to the home page.
+#### Checkout Page
+The page displays all the items that are about to be ordered by the user before taking them to the secure page to enter their card details for payment
+by stripe. To test the stripe payments the stripe test numbers can be used 424242424242. When the payment has gone through the page will display
+a pyament was successful message.
+#### Discovery Blog Page
+On the left hand side the categories display with links to each category of articles on the blog. The main blog page shows the latest blog articles
+with a heading and image for each one. When the article is clikced on, the blog image shows at the top and the article displays underneath.
+There is a comments section at the bottom of the page to see what comments people have left with an option for a user to leave a comment if logged in.
+#### Profile Page
+Here the user can view their order history and also their address details that have been saved in their profile.
+#### Contact Us Page
+This has a simple contact form for site user to fill out and the information comes through to the site owners email.
+
+
+
+
+
+
+
+
 Admin Product Managment
 Django allauth features
 Features Left to Implement
