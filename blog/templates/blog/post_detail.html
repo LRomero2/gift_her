@@ -1,5 +1,5 @@
 {% extends "base.html" %} {% load static %} {% block content %}
-
+<!--view of individual blog post-->
 <div class="container section-top" id="blog-detail">
 	<div class="row">
 		<div class="col-12 text-center">
@@ -62,6 +62,7 @@
                         {% endif %}
                     </div>
                     <hr>
+                    <!--blog comments-->
                     {% if user.is_authenticated %}
                         <div class="blog-comment-form">
                             <h3>Leave a Comment</h3>

@@ -5,11 +5,11 @@ html {
 body {
     color: #555;
     font-family: 'Lato';
-  
+    overflow-x: hidden;
 }
 
 #top-img{
-background: url('/media/perfect_gift2.jpg') no-repeat center center fixed;
+background: url('/media/newlandingimg.jpg') no-repeat center center fixed;
 width:100vw;
 background-size: cover;
 height:100vh;
@@ -41,7 +41,7 @@ height:100vh;
 .shop-now-button {
     background: black;
     color: white;
-    min-width: 260px;
+    min-width: 220px;
 }
 
 .btn-black {

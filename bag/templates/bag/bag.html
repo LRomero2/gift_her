@@ -9,7 +9,7 @@
         </div>
     </div>
 {% endblock %}
-
+<!--shopping bag-->
 {% block content %}
     <div class="overlay"></div>
     <div class="container mb-2">
@@ -20,7 +20,7 @@
                 <hr>
             </div>
         </div>
-
+<!--bag items-->
         <div class="row">
             <div class="col">
                 {% if bag_items %}
@@ -35,7 +35,6 @@
                                     <th scope="col">Subtotal</th>
                                 </tr>
                             </thead>
-
                             {% for item in bag_items %}
                                 <tr>
                                     <td class="p-3 w-25">
