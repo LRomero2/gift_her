@@ -102,16 +102,25 @@ Here the user can view their order history and also their address details that h
 #### Contact Us Page
 This has a simple contact form for site user to fill out and the information comes through to the site owners email.
 
+## Admin Product Managment
+Only authenticated superusers can access the admin page 
+They can add, edit and delete products and categories. Also, they can add, edit and delete blog posts, images and categories.
+
+## Django allauth features
+* Sign Up Page - The users will fill in the form with their E-mail, User Name and Password to create an account. 
+  Then when the sign up form is submitted, a verification email will be sent to the user's email address to complete the sign up process.
+* Log In Page - Users will input User Name or Email, and Password to log in. If the user successfully logged in, a success message 
+  will display and redirect to the landing page.
+* Log out Page - Log out page is accessible from the site menu navbar as with the log in and register pages. 
+  After the user successfully signs out, a success message will appear and redirect them to the landing page.
+* Forgot password Page - This page can be accessed from Sign In page. Users will enter their email address which they have 
+  registered with the site and an email will be sent to them.
+
+## Features Left to Implement
 
 
 
 
-
-
-
-Admin Product Managment
-Django allauth features
-Features Left to Implement
 Defensive Design
 Information Architecture
 
