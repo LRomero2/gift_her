@@ -120,20 +120,117 @@ They can add, edit and delete products and categories. Also, they can add, edit 
 I would like to add the the contact us, about and faq pages a side nav for easy navigation between these pages as is displayed on the 
 Discovery Blog page.
 
+## Defensive Design
+Error views (403, 404 and 500 errors)
+If a 403, 404 or 500 error occurs, a page will display informing the user of the error and show a back to home page for easy navigation back.
+The templates for 403.html, 404.html and 500.html are in the root template directory.
+Django Form Validation is also used to make sure the forms are filled in correctly with the right amount of characters, usernames and passwords
+and will display in a red color with a pop up if not correct.
 
-
-Defensive Design
-Information Architecture
-
+## Information Architecture
 ### Database
-Data Modeling
-Technologies Used
+Development phase SQLight database was used for the development which is installed with Django.
+Deployment phase PostgreSQL was used on deployment stage, which is provided as add-on by Heroku application.
+User model is provided as a default by Django's authentication system.
 
-Languages
-Libraries and Packages
-Tools
-Databases
-Testing
+### Data Modeling
+The two extra data models I chose to add were for the contact us page and the discovery blog page.
+
+## Technologies Used
+### Languages
+* HTML, CSS, JavaScript, Python.
+
+### Libraries, Frameworks and Extras
+* Django
+* Django Crispy Forms
+* Django Allauth
+* Bootstrap v4.6
+* JQuery
+* Font Awesome
+* Stripe
+* Google Fonts
+* Images
+* Gitignore
+* Balamiq
+
+### Tools
+GitHub
+Gitpod workspaces
+PIP
+Django Debug Toolbar
+AWS Services
+
+### Testing
+* Landing Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* Products Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* Contact Us Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* About Us Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* Discovery Blog Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* Sign In Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* Sign Up Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* Sign Out Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* Profile Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* FAQ Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* My Account Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* My Orders Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* Delivery Information Page
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
+* Footer
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
+|:------------- |:------------- |:----- |
+|       |   |   |
+
 
 ### Deployment
 Heroku Deployment with AWS
