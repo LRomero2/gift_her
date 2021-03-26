@@ -298,21 +298,16 @@ Now it's possible to run the site using the command python3 manage.py runserver
 
 ## Credits
 ### Content & Code
-I constantly read Django, Stripe and Python documenation and tutorial throughout the development.
-For Blog app, I referred to this tutorial.
-I refered to this code snippet for the Testinonial section on the landing page.
-For search product function, I refered to several articles and video. Stack Overflow 1, Stack Overflow 2, Stack Overflow 3, Combine 2 Django Querysets from Different Models, Django Queryset:value_list() flat=True.
-For the hover show button on the product card, I refered to this code snippet.
-For multiselect dropdown menu which is used for the product filter function, I referred to these article: Stack Overflow 1, bootstrap-select.
-For creating custome template tags used in Blog and Product apps, I refered to this video.
-This project was developed refering to the Boutique Ado Django mini-project from Code Institute course materials. The codes are customized and modified to fit the purpose of this milestone project.
+ I really loved the Blog page from https://github.com/AsunaMasuda/FloweryDays Flowery Days project so I imitated that design and code
+ in this project. 
+ I used the tutorial videos from code institute to create the bulk of the project and while I could have changed the design of it more, I
+ actually liked it how it was so I didn't change too much. So a lot of the CSS for allauth features in particular has been copied from the videos.
 ### Images & Media
-All the icons in this website were provided by Font Awesome.
-Favicon is made by Freepik from www.flaticon.com.
-The credits for the images used in this site can be found in this separated file.
-To compress the image size, I used tinypng.
+The product images were copied from the product suppliers original websites.
+The extra images for the landing page etc were taken from unsplash.
 ### Acknowledgements
-Thanks to: my Code Institute Mentor Guido Cecilio Garcia Bernal for his advice throughout the development process.
-Code Institute Slack Community that gave me a light when I was stuck in my coding.
+My Mentor Dick Vlaanderen has been excellent. He has given me a lot of encouragement and advice for my projects which has really helped media
+persevere when the projects have been difficult. The Code Institute Tutoring team have been amazing. They are so patient and helpful and I couldn't
+have finished this project without their help.
 ### Disclaimer
 This website is created for educational purpose only and no products can be obtained through purchasing.
