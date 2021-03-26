@@ -322,6 +322,8 @@ Now it's possible to run the site using the command python3 manage.py runserver
  in this project. 
  I used the tutorial videos from code institute to create the bulk of the project and while I could have changed the design of it more, I
  actually liked it how it was so I didn't change too much. So a lot of the CSS for allauth features in particular has been copied from the videos.
+The features section on the landing page was imitated from https://github.com/irinatu17/Art-of-Tea. I liked the way the paragraphs pulled together
+and I added an image in the middle to make it more full.
 ### Images & Media
 The product images were copied from the product suppliers original websites.
 The extra images for the landing page etc were taken from unsplash.
