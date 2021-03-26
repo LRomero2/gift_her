@@ -5,18 +5,19 @@ html {
 body {
     color: #555;
     font-family: 'Lato';
+  
 }
 
 #top-img{
 background: url('/media/perfect_gift2.jpg') no-repeat center center fixed;
-width:100%;
+width:100vw;
 background-size: cover;
 height:100vh;
 }
 
 #about-img-gift{
     background: url('/media/perfect_gift.jpg') no-repeat center center fixed;
-    widows: 100%;;
+    width: 100vw;
     background-size: cover;
 }
 
@@ -436,6 +437,7 @@ opacity: 0.8;
 #about-container{
     padding-top:20%;
     padding-bottom:20%;
+    width: 100vw;
 }
 
 .about-background{
