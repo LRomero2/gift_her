@@ -9,7 +9,7 @@ body {
 }
 
 #top-img{
-background: url('/media/newlandingimg.jpg') no-repeat center center fixed;
+background: url('/media/landing.jpg') no-repeat center center fixed;
 width:100vw;
 background-size: cover;
 height:100vh;
