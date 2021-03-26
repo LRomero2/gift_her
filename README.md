@@ -117,7 +117,8 @@ They can add, edit and delete products and categories. Also, they can add, edit 
   registered with the site and an email will be sent to them.
 
 ## Features Left to Implement
-
+I would like to add the the contact us, about and faq pages a side nav for easy navigation between these pages as is displayed on the 
+Discovery Blog page.
 
 
 
