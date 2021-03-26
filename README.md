@@ -23,30 +23,55 @@
 * Get others involved by posting article on the Blog and checking the feedback in the comments
 * Make profit from selling products
 
-### User Stories
-| AS A          | I WANT TO BE ABLE TO                            | SO THAT I CAN  |
-|:-------------|:--------------------------------------------------|:--------------------------------------|
-| Site User     | Access the website on any desktop or mobile device | View and Use the website wherever I am |
-| Site User     | See all the product categories from the navbar     | Find my way around the site easily and go to the products I want |
-| Site User     | Show how many items are in my shopping bag in the navbar | Check the products are adding to my bag as I shop and checkout when I want |
-| Site User | Register for an account| Be able to edit my information in my account profile |
-| Site User       | View my order history | Purchase the same product again easily if I like it |
-| Site User       | Recover my password in case I forget it      | Regain access to my account |
-| Site User  | Receive an email confirmation after registering & orders     | Verify that my account registration  & order was successful |
-| Site User       | Add comments to the blog posts | Add my own comments on a blog post or article |
-| Site User       | View individual product pages that have prices, descriptions, and sizes, what's included in the package  | Get information about the product before purchasing |
-| Site User  | Search for a product with keywords     | Find the products closest to what I'm looking for |
-| Site User | Have the delivery information prefilled on the delivery form if logged in | Carry out the purchase easily |
-| Site User       | Easily select the quantity of a product after adding a product to my shopping bag | In case I change my mind and want to but another item the same or cancel those items from my purchase |
+## User Stories
+### Site User Stories
 
+| AS A       | I WANT TO BE ABLE TO                                                                          | SO THAT I CAN                                                                                        |
+|:---------- |:--------------------------------------------------------------------------------------------- |:---------------------------------------------------------------------------------------------------- |
+| Site User  | Access the website on any desktop or mobile device                                            | View and Use the website wherever I am                                                               |
+| Site User  | See all the product categories from the navbar                                                | Find my way around the site easily and go to the products I want                                     |
+| Site User  | Show how many items are in my shopping bag in the navbar                                      | Check the products are adding to my bag as I shop and checkout when I want                           |
+| Site User  | Register for an account                                                                       | Be able to edit my information in my account profile                                                 |
+| Site User  | View my order history                                                                         | Purchase the same product again easily if I like it                                                  |
+| Site User  | Recover my password in case I forget it                                                       | Regain access to my account                                                                          |
+| Site User  | Receive an email confirmation after registering & orders                                      | Verify that my account registration  & order was successful                                          |
+| Site User  | Add comments to the blog posts                                                                | Add my own comments on a blog post or article                                                        |
+| Site User  | View individual product pages that have prices, descriptions, what's included in the package  | Get information about the product before purchasing                                                  |
+| Site User  | Search for a product with keywords                                                            | Find the products closest to what I'm looking for                                                    |
+| Site User  | Have the delivery information prefilled on the delivery form if logged in                     | Carry out the purchase easily                                                                        |
+| Site User  | Easily select the quantity of a product after adding a product to my shopping bag             | In case I change my mind and want to but another item the same or cancel those items from my purchase|
 
-
+### Site Owner Stories
 
 | AS A          | I WANT TO BE ABLE TO                            | SO THAT I CAN  |
 |:-------------|:--------------------------------------------------|:--------------------------------------|
 | Site Owner     | Post an article on the discovery blog  | Give site visitors interesting ideas & information |
 | Site Owner     | Let the site users log in to leave comments on the blog page  | See who is leaving comments and gain feedback from customers |
 | Site Owner    | Add products and product categories easily via the admin account | Update products to sell or add new lines for purchasing |
+| Site Owner     | Have defensive programming in place  | Make profiles and accounts secure with passwords and customer information |
+| Site Owner    | Make sure the site has 404 and 500 pages | The user can navigate easily back to the home page of the site |
+
+
+## Five planes of UX
+* *Strategy* - The Business goals for this project were to get the user to register with the site to become a user. 
+             Browse products for purchasing and purchase those products easily. Also, use the Discovery Blog to get great gift ideas and leave 
+             their thoughts in a comment on the page of the article. 
+* *Skeleton* - The user would have to be able to add, view, edit and delete the products of their choice to their shopping bag as they wish.
+             They would also have to register and log in to have a user profile and make purchases. 
+             The users also need to be able to search for a word that will show them all the products related to that word, 
+             to be able to find products they already have in mind easily.
+* *Structure* - The content needed to be logically grouped together in categories and display the most logical and expected content 
+              for each page visited. The home page contains an overview of the features of the site, the navbar displays the product
+              categories for easy navigation and the search bar is at the top of the page to catch the users attention as they visit the site.
+* *Scope* - The online store needed to include links to social media pages as the site encourages leaving reviews and comments on the Discovery Blog. 
+          Site owners with access to the admin account can add Blog posts and articles, along with images and put them in the correct category.
+          Site users need to be able to enjoy using the site, the overall experience needs to be hassle free and pleasant.
+* *Surface* - The finished appearance of the app is simple and clean. This ensures that a user of any age is able to navigate their way 
+            through the app and to be able to understand what they are looking at. The appealing images with a grey or white background of 
+            the products makes the site professional and clear. The color scheme of black and white is followed to make the site uniform 
+            with flashes of light pink here and there on some pages such as contact us.
+            Bootstrap v4.6 was used to create the site and displays well on desktop, tablet and mobile devices.
+
 
 
 
