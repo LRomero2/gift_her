@@ -73,8 +73,8 @@
             with flashes of light pink here and there on some pages such as contact us.
             Bootstrap v4.6 was used to create the site and displays well on desktop, tablet and mobile devices.
 
-Wireframes
-The Wireframes for this project were created with balsamiq. You can find the wireframes here.
+## Wireframes
+The Wireframes for this project were created with balsamiq. You can find the [wireframes here.](/static/wireframes)
 
 ## Features
 ### Existing Features
