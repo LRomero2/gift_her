@@ -397,8 +397,21 @@ i.fa-inverse{
 color:black;
 }
 
+
+@media (max-width: 576px) {
+    #h1-hero-footer {
+       color:white;
+    }
+}
+
 #h5-hero-footer{
 color:white;
+}
+
+@media (max-width: 576px) {
+    #h5-hero-footer {
+       color:white !important;
+    }
 }
 
 #footer-links{
