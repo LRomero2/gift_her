@@ -362,11 +362,8 @@ input[name='q']::placeholder {
     }
 }
 
-
-
 .footer_index{
     background:black;
-    height:300px;
     width:100%;
     margin-bottom:0;
     margin-top:5%;
@@ -416,21 +413,20 @@ color:white;
 
 #footer-links{
 list-style-type: none;
+margin:0;
+padding:0;
 }
 
 #footer-links2{
 list-style-type: none;
+margin:0;
+padding:0;
 }
 
 #footer-links-container{
     padding-top:20px;
 }
 
-@media (min-width: 414px) {
-    #footer-links-container {
-       padding-bottom: 0;
-    }
-}
 
 #delivery-info{
     color:black;
@@ -526,6 +522,12 @@ background-color: #f7e7f5e5;
     width:20rem;
 }
 
+
+@media (max-width: 576px) {
+    #delivery-banner {
+       padding-bottom:60px;
+    }
+}
 
 /*--------------------------------------------------------------------/*
 
