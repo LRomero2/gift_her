@@ -347,6 +347,23 @@ input[name='q']::placeholder {
     font-family: 'Lato';
 }
 
+
+@media (min-width: 768px) {
+    #features-section-background {
+      
+        width:100vw;
+    }
+}
+
+@media (max-width: 576px) {
+    #features-section-background {
+        padding-top:50px;
+        height: 840px;
+    }
+}
+
+
+
 .footer_index{
     background:black;
     height:300px;
@@ -396,6 +413,11 @@ list-style-type: none;
     padding-top:20px;
 }
 
+@media (min-width: 414px) {
+    #footer-links-container {
+       padding-bottom: 0;
+    }
+}
 
 #delivery-info{
     color:black;
@@ -451,6 +473,12 @@ background-color: #f7e7f5e5;
 opacity: 0.8;
 color:black;   
 }
+
+
+#lower-cards-header{
+background-color: #f7e7f5e5; 
+}
+
 
 /*Error pages*/
 .error-heading {
