@@ -54,7 +54,6 @@
                 <a href="{% url 'products' %}?category=flowers" class="dropdown-item">Flowers</a>
             </div>
         </li>
-        <!--dropdown menu-->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Accessories
@@ -66,6 +65,11 @@
                 <a href="{% url 'products' %}?category=nail_polish" class="dropdown-item">Nail Polish</a>
                 <a href="{% url 'products' %}?category=perfume,watches,nail_polish" class="dropdown-item">All Accessories</a>
             </div>
+        </li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+                 Back Home
+            </a>
         </li>
     </ul>
 </div>
