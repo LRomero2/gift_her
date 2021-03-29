@@ -185,75 +185,75 @@ I have manually tested all pages and each button and function on each page. This
 well. To test it thouroughly I also got my family to check out the website and report any issues they found. 
 The table below shows what I tested for on each page. I chose a table format to keep the testing section clean and readable.
 
-* Landing Page
+ Landing Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs?     | Forms Work? |
-|:-------------------|:-------------------------------- |:--------- |:------------
-|      YES           |              YES                 |    NO      | N/A |
+|:-------------------|:-------------------------------- |:--------- |:----------- |
+|      YES           |              YES                 |    NO     | N/A         |
 
-* Products Page
+ Products Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------------------------------- |:------ |:------------------------------ |   
-|    YES        |                 YES                   |   NO     |    N/A    |
+|:------------------ |:-------------------------------- |:----- |:----------- |   
+|    YES             |                 YES              |   NO  |    N/A      |
 
-* Contact Us Page
+ Contact Us Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------------------------------- |:----------- |:-------|
-|     YES       |       YES                           |      NO      |  YES  |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|     YES            |       YES                        |  NO   |  YES        |
 
-* About Us Page
+ About Us Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------------------------------- |:----- |:------------|
-|    YES        |        YES                            |    NO   | N/A |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|    YES             |        YES                       |   NO  |  N/A        |
 
-* Discovery Blog Page
+ Discovery Blog Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------------------------------ |:----- |:--------------|
-|   YES         |       YES                            |   NO    |   N/A    |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|   YES              |       YES                        |   NO  |   N/A       |
 
-* Sign In Page
+ Sign In Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------------------------------- |:----- |:------------|
-|   YES         |           YES                         |  NO  |     YES     |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|   YES              |           YES                    |  NO   |     YES     |
 
-* Sign Up Page
+ Sign Up Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------------------------------- |:----- |:------------|
-|   YES         |              YES                       | NO  |   YES      |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|   YES              |              YES                 | NO    |   YES       |
 
-* Sign Out Page
+ Sign Out Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------------------------------- |:----- |:------------|
-|   YES          |              YES                   |    NO  |      YES     |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|   YES              |              YES                 |   NO  |      YES    |
 
-* Profile Page
+ Profile Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|                    |                                  |       |             |
 
-* FAQ Page
+ FAQ Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------------------------------- |:----- |:------------|
-|      YES      |             YES                       |   NO  |      N/A   |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|      YES           |             YES                  |   NO  |      N/A    |
 
-* My Account Page
+ My Account Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|                    |                                  |       |             |
 
-* My Orders Page
+ My Orders Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|                    |                                  |       |             |
 
-* Delivery Information Page
+ Delivery Information Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------------------------------- |:------ |:------------|
-|       YES     |                 YES                      |  NO     |   N/A    |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|       YES          |                 YES              |  NO   |   N/A       |
 
-* Footer
+ Footer
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:-------------------------------------- |:----- |:----------|
-|     YES       |               YES                    |   NO    |     N/A    |
+|:------------------ |:-------------------------------- |:----- |:----------- |
+|     YES            |               YES                |   NO  |     N/A     |
 
 
 ### Deployment
