@@ -207,23 +207,23 @@ The table below shows what I tested for on each page. I chose a table format to 
 
 * Discovery Blog Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------- |:------------------------------------ |:----- |:--------------|
+|   YES         |       YES                            |   NO    |   N/A    |
 
 * Sign In Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------- |:------------------------------------- |:----- |:------------|
+|   YES         |           YES                         |  NO  |     YES     |
 
 * Sign Up Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------- |:------------------------------------- |:----- |:------------|
+|   YES         |              YES                       | NO  |   YES      |
 
 * Sign Out Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------- |:------------------------------------- |:----- |:------------|
+|   YES          |              YES                   |    NO  |      YES     |
 
 * Profile Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
@@ -232,8 +232,8 @@ The table below shows what I tested for on each page. I chose a table format to 
 
 * FAQ Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------- |:------------------------------------- |:----- |:------------|
+|      YES      |             YES                       |   NO  |      N/A   |
 
 * My Account Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
@@ -247,13 +247,13 @@ The table below shows what I tested for on each page. I chose a table format to 
 
 * Delivery Information Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------- |:------------------------------------- |:------ |:------------|
+|       YES     |                 YES                      |  NO     |   N/A    |
 
 * Footer
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------- |:-------------------------------------- |:----- |:----------|
+|     YES       |               YES                    |   NO    |     N/A    |
 
 
 ### Deployment
