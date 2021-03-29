@@ -575,6 +575,12 @@ background-color: #f7e7f5e5;
     background: white;
 }
 
+@media (max-width: 420px) {
+    #blog-detail {
+    margin-top:120px;
+    }
+}
+
 #blog-detail-cat{
     padding-top:15%;
     background: white;

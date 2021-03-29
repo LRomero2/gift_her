@@ -181,25 +181,29 @@ Django Debug Toolbar
 AWS Web Services
 
 ### Testing
+I have manually tested all pages and each button and function on each page. This took such a long time but I wanted to make sure everything worked
+well. To test it thouroughly I also got my family to check out the website and report any issues they found. 
+The table below shows what I tested for on each page. I chose a table format to keep the testing section clean and readable.
+
 * Landing Page
-| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs?     | Forms Work? |
+|:-------------------|:-------------------------------- |:--------- |:------------
+|      YES           |              YES                 |    NO      | N/A |
 
 * Products Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------- |:------------------------------------- |:------ |:------------------------------ |   
+|    YES        |                 YES                   |   NO     |    N/A    |
 
 * Contact Us Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------- |:------------------------------------- |:----------- |:-------|
+|     YES       |       YES                           |      NO      |  YES  |
 
 * About Us Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------- |:------------- |:----- |
-|       |   |   |
+|:------------- |:------------------------------------- |:----- |:------------|
+|    YES        |        YES                            |    NO   | N/A |
 
 * Discovery Blog Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
