@@ -309,7 +309,7 @@ input[name='q']::placeholder {
     }
 }
 
-
+/*----Some of this code is imitated from https://github.com/irinatu17/Art-of-Tea-------------------------------/*
 /* Landing page - features section*/
 .span-features {
     letter-spacing: 0.3rem;
@@ -565,7 +565,7 @@ background-color: #f7e7f5e5;
 
 
 
-/*--------------------------------------------------------------------/*
+/*----In This section I imitated some of https://github.com/AsunaMasuda/FloweryDays code-------------------------------/*
 
 
 /** Blog **/
