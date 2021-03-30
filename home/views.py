@@ -22,3 +22,4 @@ def error_500(request,  exception):
 def error_403(request,  exception):
     data = {}
     return render(request, 'templates/403.html', data)
+    

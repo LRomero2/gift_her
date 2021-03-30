@@ -20,4 +20,3 @@ class SecureMessageForm(forms.ModelForm):
             placeholder = f'{placeholders[field]} *'
             self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].label = False
-            

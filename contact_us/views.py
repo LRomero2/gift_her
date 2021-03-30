@@ -19,7 +19,7 @@ def secure_message(request):
 
 
     return render(request, 'contact/contact_us.html', context)
-    
+
 
 
 def thankyou_page(request):

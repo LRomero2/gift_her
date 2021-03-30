@@ -238,4 +238,3 @@ def delete_blog(request, blog_pk):
         del request.session['last_item']
 
     return redirect(reverse('blog'))
-    
