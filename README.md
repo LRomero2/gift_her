@@ -256,6 +256,16 @@ The table below shows what I tested for on each page. I chose a table format to 
 |     YES            |               YES                |   NO  |     N/A     |
 
 
+## Pep8 Validation
+I have validated all of my python code at http://pep8online.com/. I validated all of my code and then pasted that back into my workspace.
+However, when the corrected code was back in the workspace, it wouldn't even open as the terminal showed an error for invalid syntax, so I 
+had to change some of the code back so that no erroes were seen in gitpod as I needed the workspace to open. 
+This actually happened on nearly every page of python code so I spoke to a tutor about it and they advised me to write about it in my Readme
+as they couldn't find out why this was happening. Here are photos of one example of this.
+
+![alt text](media//pep8check.jpg "pep8 image")
+![alt text](media/pep8products.jpg "pep8products image")
+
 ### Deployment
 #### Heroku Deployment with AWS
 To deploy this website I will follow these steps (Some have already been taken to create the project):
