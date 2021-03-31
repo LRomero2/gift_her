@@ -1,5 +1,5 @@
 """
-WSGI config for Ride project.
+WSGI config for gift-her project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
