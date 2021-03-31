@@ -1,0 +1,1 @@
+web: gunicorn gift_her.wsgi:application
