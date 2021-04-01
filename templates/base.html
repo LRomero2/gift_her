@@ -207,7 +207,7 @@
       <li><a href="{% url 'blog' %}" class="text-decoration-none">Discover Our Blog</a></li>
       <li><a href="{% url 'faqs' %}" class="text-decoration-none">FAQ'S</a></li>
                 {% if request.user.is_authenticated %}
-      <li><a href="{% url 'order_history' order.order_number %}" class="text-decoration-none">My Orders</a></li>
+      <li><a href="{% url 'profile' %}" class="text-decoration-none">My Orders</a></li>
                 {% endif %}
       </ul>
     </div>
