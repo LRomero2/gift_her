@@ -1,6 +1,5 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
-from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.contrib.auth.decorators import login_required
 
 from .models import BlogPost, BlogImage, BlogComment
@@ -10,20 +9,18 @@ from .forms import BlogForm, BlogImageForm, CommentForm
 def blog_feed(request):
     """
     A view to render blog posts ordered
-    by newest first with paginations
+    by newest first
     """
     blog_post = BlogPost.objects.all().order_by('-created_on')
     blog_image = BlogImage.objects.all()
     total_post_number = blog_post.count()
-    
-    
+
     category_dict = dict()
     for key in blog_post:
         if key.category in category_dict.keys():
             category_dict[key.category] += 1
         else:
             category_dict[key.category] = 1
-
 
     context = {
         'blog_post': blog_post,
