@@ -24,12 +24,14 @@ class Migration(migrations.Migration):
                 ('category', models.CharField(max_length=254)),
                 ('updated_on', models.DateTimeField(auto_now=True)),
                 ('content', models.TextField()),
-                ('created_on', models.DateTimeField(auto_now_add=True,
-                                                    verbose_name='post_created_date')),
+                ('created_on', models.DateTimeField \
+                    (auto_now_add=True, verbose_name='post_created_date')),
                 ('status', models.IntegerField(choices=[(0, 'Draft'),
-                                                        (1, 'Publish')], default=0)),
-                ('author', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
-                                             related_name='blog_posts', to=settings.AUTH_USER_MODEL)),
+                                                        (1, 'Publish')], \
+                                                            default=0)),
+                ('author', models.ForeignKey \
+                    (on_delete=django.db.models.deletion.CASCADE,
+                     related_name='blog_posts', to=settings.AUTH_USER_MODEL)),
             ],
             options={
                 'ordering': ['-created_on'],
@@ -42,7 +44,10 @@ class Migration(migrations.Migration):
                                         serialize=False, verbose_name='ID')),
                 ('image', models.ImageField(upload_to='')),
                 ('article_id', models.ForeignKey(blank=True, null=True,
-                                                 on_delete=django.db.models.deletion.SET_NULL, to='blog.blogpost', verbose_name='image_article_id')),
+                                                 on_delete=django.db.models \
+                                                 .deletion.SET_NULL, \
+                                                 to='blog.blogpost', \
+                                                 verbose_name='image_article_id')),
             ],
         ),
         migrations.CreateModel(

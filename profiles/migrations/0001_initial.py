@@ -23,9 +23,8 @@ class Migration(migrations.Migration):
                 ('default_phone_number', models.CharField(blank=True,
                                                           max_length=20,
                                                           null=True)),
-                ('default_country', django_countries.fields.CountryField(blank=True,
-                                                                         max_length=2,
-                                                                         null=True)),
+                ('default_country', django_countries.fields.CountryField \
+                    (blank=True, max_length=2, null=True)),
                 ('default_postcode', models.CharField(blank=True,
                                                       max_length=20,
                                                       null=True)),

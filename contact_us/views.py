@@ -1,6 +1,5 @@
 from django.shortcuts import render, redirect
 from .forms import SecureMessageForm
-from django.contrib import messages
 
 
 def secure_message(request):
@@ -17,9 +16,7 @@ def secure_message(request):
         'form': form,
     }
 
-
     return render(request, 'contact/contact_us.html', context)
-
 
 
 def thankyou_page(request):
