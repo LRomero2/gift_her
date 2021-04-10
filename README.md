@@ -228,22 +228,18 @@ The table below shows what I tested for on each page. I chose a table format to 
  Profile Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
 |:------------------ |:-------------------------------- |:----- |:----------- |
-|                    |                                  |       |             |
+|         YES        |             YES                  |   NO  |      YES    |
 
  FAQ Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
 |:------------------ |:-------------------------------- |:----- |:----------- |
 |      YES           |             YES                  |   NO  |      N/A    |
 
- My Account Page
-| Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
-|:------------------ |:-------------------------------- |:----- |:----------- |
-|                    |                                  |       |             |
 
  My Orders Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
 |:------------------ |:-------------------------------- |:----- |:----------- |
-|                    |                                  |       |             |
+|       YES          |              YES                 |  NO   |     YES     |
 
  Delivery Information Page
 | Each Button Works? | Tablet/Mobile Device Responsive? | Bugs? | Forms Work? |
@@ -265,6 +261,12 @@ as they couldn't find out why this was happening. Here are photos of one example
 
 ![alt text](media//pep8check.jpg "pep8 image")
 ![alt text](media/pep8products.jpg "pep8products image")
+
+I managed to get rid of nearly all of the warnings and errors after doing some extra research and help from a tutor. The tutors told me that 
+the rest of the warnings are advisable by gitpod so that wouldn't count towards my grade on the project. These warnings occur in the code such as
+within the migrations, the null=True code lines and some classes that show an error for no objects. Another issue I asked the tutors about was
+the json error. Apparantly this is due to Gitpod changing from theia to vs code.
+
 
 ### Deployment
 #### Heroku Deployment with AWS
@@ -333,7 +335,8 @@ Now it's possible to run the site using the command python3 manage.py runserver
 ## Credits
 ### Content & Code
  I really loved the Blog page from https://github.com/AsunaMasuda/FloweryDays Flowery Days project so I imitated that design and code
- in this project. 
+ in this project. I also copied come of the deployment instructions from that project for this readme file as I couldn't remember all of the 
+ steps from the tutorial videos in the course.
  I used the tutorial videos from code institute to create the bulk of the project and while I could have changed the design of it more, I
  actually liked it how it was so I didn't change too much. So a lot of the CSS for allauth features in particular has been copied from the videos.
 The features section on the landing page was imitated from https://github.com/irinatu17/Art-of-Tea. I liked the way the paragraphs pulled together
