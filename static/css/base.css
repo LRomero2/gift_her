@@ -24,7 +24,7 @@ height:100vh;
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 460px) {
     #top-img {
     background-size:contain;
     }
