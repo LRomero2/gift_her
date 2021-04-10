@@ -344,9 +344,10 @@ input[name='q']::placeholder {
     font-family: 'Lato';
 }
 
-@media (max-width: 460px) {
+@media (max-width: 440px) {
     .background-hero {
     background-size: contain;
+    width:100%;
     }
 }
 
