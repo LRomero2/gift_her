@@ -413,7 +413,7 @@ color:black;
 
 @media (max-width: 420px) {
     #h1-hero-footer {
-    color:black;
+    color:black !important;
     }
 }
 
@@ -429,7 +429,7 @@ color:white;
 
 @media (max-width: 420px) {
     #h5-hero-footer {
-    color:black;
+    color:black !important;
     }
 }
 
