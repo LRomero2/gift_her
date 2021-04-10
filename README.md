@@ -265,7 +265,9 @@ as they couldn't find out why this was happening. Here are photos of one example
 I managed to get rid of nearly all of the warnings and errors after doing some extra research and help from a tutor. The tutors told me that 
 the rest of the warnings are advisable by gitpod so that wouldn't count towards my grade on the project. These warnings occur in the code such as
 within the migrations, the null=True code lines and some classes that show an error for no objects. Another issue I asked the tutors about was
-the json error. Apparantly this is due to Gitpod changing from theia to vs code.
+the json error. Apparantly this is due to Gitpod changing from theia to vs code. Also for the allauth passwords in the settings.py file there 
+were a few errors for the lines of code being so long. I did break these up with the usual backslashes but that created errors when the app ran so
+I reverted the code back to how it was.
 
 
 ### Deployment
