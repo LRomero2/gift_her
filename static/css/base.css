@@ -435,7 +435,7 @@ color:white;
 
 @media (max-width: 576px) {
     #h5-hero-footer {
-       color:white !important;
+       color:white;
     }
 }
 
