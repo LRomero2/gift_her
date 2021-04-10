@@ -15,11 +15,6 @@ background-size: cover;
 height:100vh;
 }
 
-#about-img-gift{
-    background: url('/media/perfect_gift.jpg') no-repeat center center fixed;
-    width: 100vw;
-    background-size: cover;
-}
 
 @media (max-width: 420px) {
     #about-img-gift {
