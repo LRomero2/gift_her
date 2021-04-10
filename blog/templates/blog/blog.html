@@ -22,7 +22,7 @@
                 {% endfor %}
                 {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
-                                    <a href="{% url 'add_blog' %}" type="button" class="btn btn-dark">Add Blog Post</a>
+                                    <a href="{% url 'add_blog' %}" type="button" class="btn btn-dark text-white">Add Blog Post</a>
                                 {% endif %}
                                 {% endif %}
 			</div>
