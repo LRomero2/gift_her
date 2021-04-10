@@ -86,6 +86,9 @@ The footer at the bottom of the page has links to social media platforms and ext
 
 ![alt text](media/landing_page.jpg "landing image")
 
+![alt text](media/phoneresponsive.jpg "landing image")  ![alt text](media/bottomimg.jpg "landing image")
+
+
 #### Product Page
 The product filter at the right hand side of the page (On a desktop) is handy for easy searching and filtering product results.
 The products display nicely in a card format to keep the page nice and clean. When the product is cliked on to view, another page is displayed
