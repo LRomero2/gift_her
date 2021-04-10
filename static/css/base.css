@@ -348,6 +348,7 @@ input[name='q']::placeholder {
     .background-hero {
     background-size: contain;
     width:100%;
+    overflow-x: hidden;
     }
 }
 
