@@ -336,6 +336,12 @@ input[name='q']::placeholder {
     font-family: 'Lato';
 }
 
+@media (max-width: 420px) {
+    .background-hero {
+    background-size: contain;
+    }
+}
+
 #thankyou-container{
     padding-top:24%;
 }
