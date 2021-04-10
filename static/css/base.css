@@ -439,6 +439,20 @@ color:white;
     }
 }
 
+
+@media (max-width: 420px) {
+    #hero-footer-text {
+       color:black !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .background-hero {
+       background:white !important;
+    }
+}
+
+
 #footer-links{
 list-style-type: none;
 margin:0;
