@@ -8,6 +8,14 @@ body {
     overflow-x: hidden;
 }
 
+@media (max-width: 420px) {
+    body {
+    overflow-x:hidden;
+    width:100%;
+    }
+}
+
+
 #top-img{
 background: url('/media/landing.jpg') no-repeat center center fixed;
 width:100vw;
