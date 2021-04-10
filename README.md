@@ -1,7 +1,7 @@
 # GiftHer - First E-Commerce Project
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "responsive image")
--------------------Image goes here-----------------
+
 
 ## UX
 ### Project Goals
