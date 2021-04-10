@@ -346,11 +346,10 @@ input[name='q']::placeholder {
 
 @media (max-width: 440px) {
     .background-hero {
-    background-size: contain;
-    width:100%;
-    overflow-x: hidden;
+    background:white;
     }
 }
+
 
 #thankyou-container{
     padding-top:24%;
@@ -412,6 +411,11 @@ i.fa-inverse{
 color:black;
 }
 
+@media (max-width: 420px) {
+    #h1-hero-footer {
+    color:black;
+    }
+}
 
 @media (max-width: 576px) {
     #h1-hero-footer {
@@ -421,6 +425,12 @@ color:black;
 
 #h5-hero-footer{
 color:white;
+}
+
+@media (max-width: 420px) {
+    #h5-hero-footer {
+    color:black;
+    }
 }
 
 @media (max-width: 576px) {

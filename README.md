@@ -1,6 +1,6 @@
 # GiftHer - First E-Commerce Project
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "responsive image")
+![alt text](media/homescreenforreadme.jpg "responsive image")
 
 
 ## UX
@@ -269,8 +269,9 @@ the json error. Apparantly this is due to Gitpod changing from theia to vs code.
 were a few errors for the lines of code being so long. I did break these up with the usual backslashes but that created errors when the app ran so
 I reverted the code back to how it was.
 
+![alt text](media/pep8proofreadme.jpg "pep8 image")
 
-### Deployment
+## Deployment
 #### Heroku Deployment with AWS
 To deploy this website I will follow these steps (Some have already been taken to create the project):
 1. Install the following packages to the local environment, the packages are required to deploy a Django project on Heroku.
